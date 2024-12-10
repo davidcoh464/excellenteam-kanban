@@ -1,0 +1,21 @@
+.register-page{    
+    .register-container {
+        @include container;
+    }
+    
+    .register-box {
+        @include container-box;
+    }
+    
+    .form-group {
+        @include form-group;
+    }
+
+    .register-button {
+        @include primary-button;
+    }
+
+    .form-error-register{
+        color: red;
+    }
+}

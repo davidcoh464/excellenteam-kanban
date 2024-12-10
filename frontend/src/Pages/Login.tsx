@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './login.css';
 
 type Props = {
   isLoggedIn: boolean;
@@ -40,7 +39,7 @@ const Login = (props: Props) => {
   };
 
   return (
-    <>
+    <div className='login-page'>
       {isLoggedIn ? null : (
         <div className="login-container">
           <div className="login-box">
@@ -62,7 +61,7 @@ const Login = (props: Props) => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 

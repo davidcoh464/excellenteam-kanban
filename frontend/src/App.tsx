@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import AppRoutes from './Components/AppRoutes';
 import Navbar from './Components/Navbar';
+import "./styles/main.css";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

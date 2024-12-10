@@ -1,0 +1,27 @@
+.login-page {
+    .login-container {
+        @include container;
+    }
+
+    .login-box {
+        @include container-box;
+    }
+
+    // Form fields styling
+    .form-group {
+        @include form-group;
+    }
+
+    // Login button styling
+    .login-button {
+        @include primary-button;
+    }
+
+    // Register span styling
+    .register-span {
+        margin-top: 20px;
+        span {
+            cursor: pointer;
+        }
+    }
+}
